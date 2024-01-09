@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Pooja Jeeva",
+  title: "Hi all, I'm Pooja",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a passionate Marketing Strategist 🚀 who supercharges growth by blending data-driven storytelling and cross-team collaboration – rallying aligned vision into flawless ideation, creation and engagement through clear processes.(I proudly rep 'woman of processes'!)  "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1P_RDR74GkwxIBuogfDs0iM_wXuLA2VHj/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/PoojaJeeva",
+  linkedin: "https://www.linkedin.com/in/poojajeeva/",
+  gmail: "poojajeevaa@gmail.com",
+  instagram: "https://www.instagram.com/bhujaaa/",
+  facebook: "https://www.facebook.com/poojajeevs",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +47,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Growth-Generating , Data-Lovin' marketer who wants to work by blending analytics with creativity to create Magic",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Digital Marketing & Content Creation - Employ paid and organic tactics to boost visibility of compelling materials across platforms"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Sales-Enablement - Equip cross-functional teams to execute strategies"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Storytelling - Weave empathy, information and inspiration to captivate"
     )
   ],
 
@@ -65,56 +63,48 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Excel",
+      fontAwesomeClassname: "fas fa-file-excel"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Google Analytics",
+      fontAwesomeClassname: "fas fa-chart-bar"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Salesforce Marketing Cloud",
+      fontAwesomeClassname: "fas fa-cloud"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Trello",
+      fontAwesomeClassname: "fab fa-trello"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "PowerPoint",
+      fontAwesomeClassname: "fas fa-file-powerpoint"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "JIRA",
+      fontAwesomeClassname: "fab fa-jira"
     },
     {
-      skillName: "firebase",
+      skillName: "Smartsheet",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Asana",
+      fontAwesomeClassname: "fas fa-tasks"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,24 +116,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Suffolk University - Sawyer Business School",
+      logo: require("./assets/images/Suffolk.jpg"),
+      subHeader: "Dual Master of Science, Marketing & Business Analytics",
+      duration: "September 2021 - May 2023",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "President of the Association of Indian Sub-Continent (AISC ) at Suffolk 2021-2023"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -153,16 +141,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Multi-channel Campaigns", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Messaging & Positioning",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Digital Marketing",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +162,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Product Marketing Consultant",
+      company: "Crowd Doing",
+      companylogo: require("./assets/images/crowddoing.jpg"),
+      date: "August 2023 – Present",
+      desc: "Drove $125K fundraising results through virtual events and cultivated 30% donor pipeline growth via targeted nurturing and alignment of 20+ sponsors with high-impact initiatives.",
+     
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Marketing and Strategy Associate",
+      company: "Nth Venture.Inc",
+      companylogo: require("./assets/images/nth.jpg"),
+      date: "February 2023 – May 2023",
+      desc: "Shortened sales cycle 40% with tailored nurture and content, cutting lead leakage 15%. Grew VC portfolio awareness 15% via emails and advertising. Executed 5 co-sponsored AI events engaging 300+ pre-IPO founders and C-levels."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Marketing Research Associate",
+      company: "Suffolk University",
+      companylogo: require("./assets/images/suffolk2.jpg"),
+      date: "September 2021 – February 2023",
+      desc: "Uncovered $2M in cross-sell opportunities through buyer journey analytics. Boosted rep productivity 20% via SF CRM insights. Increased student conversion 18% using targeted SFMC outreach."
+    },
+    {
+      role: "Product Marketing Coordinator- Consumer Insight  ",
+      company: "YMCA",
+      companylogo: require("./assets/images/ymca.jpg"),
+      date: "September 2022 – December 2022",
+      desc: "Drove 25% mobile booking growth through 2K+ insights enhancing UX personalization. Lifted LTV 7% in 4 months via aligned Journey Builder promotions. Organized 15+ events with sales teams, boosting leads and conveying YMCA mission."
     }
   ]
 };
@@ -212,32 +204,66 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: " Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE STRATEGIES AND ANALYSIS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/liberty.jpg"),
+      projectName: "LIBERTY MUTUAL",
+      projectDesc: "Gen Z insurance study",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "click here",
+          url: "https://drive.google.com/file/d/1NkNxmz1gzfeU77gjqjbBU1JrN2kJFuPl/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/fema.jpg"),
+      projectName: "FEMA",
+      projectDesc: "Climate research creating educational exhibit for 200+ attendees",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Click here",
+          url: "https://drive.google.com/drive/folders/15X_HfvUm-kAoOdy0kabB8jAYbSGukNp1?usp=sharing"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/cmb.jpg"),
+      projectName: " CHADWICK MARTIN BAILEY",
+      projectDesc: " Gen Z and Online data Privacy",
+      footerLink: [
+        {
+          name: "Click here",
+          url: "https://drive.google.com/file/d/1t4YgGrMj6CDI45fr48Dbcz-UH4WtG9oO/view?usp=sharing "
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sbr.jpg"),
+      projectName: "SBR2TH ",
+      projectDesc: "Social Media templates       ",
+      footerLink: [
+        {
+          name: "Click here",
+          url: ": https://drive.google.com/drive/folders/1I-mxxgCap61Qn9N9ua8X7F_iATig883c?usp=sharing "
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ymca.jpg"),
+      projectName: "YMCA        ",
+      projectDesc: " Insights from NPS survey",
+      footerLink: [
+        {
+          name: "Click here",
+          url: "https://drive.google.com/file/d/13tFxRsmbT75tsVOI21YXLi3x0D_cxmzg/view?usp=sharing  "
+        }
+      ]
+    },
+  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -246,57 +272,56 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: " Hubspot Academy - Content Marketing      ",
+      image: require("./assets/images/hubspot.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://app.hubspot.com/academy/achievements/hlzvj9l7/en/1/pooja-jeeva/content-marketing "
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Google Analytics Individual Qualification      ",
+      image: require("./assets/images/googleanalytics.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: " https://skillshop.exceedlms.com/student/award/H5yiaMEFYasEZETbXwEiUAzR"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Hubspot -Social Media Marketing      ",
+      image: require("./assets/images/hubspot.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://app.hubspot.com/academy/achievements/fxmgkrln/en/1/pooja-jeeva/social-media-marketing "}
+      ]
+    },
+    {
+      title: "SAS - Academic Specialization in Business Analytics",
+      image: require("./assets/images/sas.jpg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://www.credly.com/badges/aab65a8e-007d-4a0c-92db-10456b00974a/linked_in_profile "}
+      ]
+    },
+    {
+      title: "Pendo - Product Analytics Certified      ",
+      image: require("./assets/images/pendo.jpg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://www.credly.com/badges/e98df918-083e-4150-9ab6-608efb9bf874/public_url "}
       ]
     }
   ],
@@ -324,7 +349,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +368,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +381,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Connect With Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "I love connecting and collaborating with new people and chatting about marketing, tech, running (2 Boston marathons!), fashion, and all things fun.",
+  //number: "0000000",
+  email_address: "poojajeevaa@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
