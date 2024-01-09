@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/developerFolio/static/css/main.d8b13d37.chunk.css",
+    "main.js": "/developerFolio/static/js/main.a615eb8a.chunk.js",
+    "main.js.map": "/developerFolio/static/js/main.a615eb8a.chunk.js.map",
+    "runtime-main.js": "/developerFolio/static/js/runtime-main.4a0c808c.js",
+    "runtime-main.js.map": "/developerFolio/static/js/runtime-main.4a0c808c.js.map",
+    "static/js/2.61aa7796.chunk.js": "/developerFolio/static/js/2.61aa7796.chunk.js",
+    "static/js/2.61aa7796.chunk.js.map": "/developerFolio/static/js/2.61aa7796.chunk.js.map",
+    "static/css/3.df879eac.chunk.css": "/developerFolio/static/css/3.df879eac.chunk.css",
+    "static/js/3.ffe2ac71.chunk.js": "/developerFolio/static/js/3.ffe2ac71.chunk.js",
+    "static/js/3.ffe2ac71.chunk.js.map": "/developerFolio/static/js/3.ffe2ac71.chunk.js.map",
+    "static/css/4.d7ceb645.chunk.css": "/developerFolio/static/css/4.d7ceb645.chunk.css",
+    "static/js/4.38809caa.chunk.js": "/developerFolio/static/js/4.38809caa.chunk.js",
+    "static/js/4.38809caa.chunk.js.map": "/developerFolio/static/js/4.38809caa.chunk.js.map",
+    "index.html": "/developerFolio/index.html",
+    "precache-manifest.9d99d13fada9d1cfc3a53515c08ab11c.js": "/developerFolio/precache-manifest.9d99d13fada9d1cfc3a53515c08ab11c.js",
+    "service-worker.js": "/developerFolio/service-worker.js",
+    "static/css/3.df879eac.chunk.css.map": "/developerFolio/static/css/3.df879eac.chunk.css.map",
+    "static/css/4.d7ceb645.chunk.css.map": "/developerFolio/static/css/4.d7ceb645.chunk.css.map",
+    "static/css/main.d8b13d37.chunk.css.map": "/developerFolio/static/css/main.d8b13d37.chunk.css.map",
+    "static/js/2.61aa7796.chunk.js.LICENSE.txt": "/developerFolio/static/js/2.61aa7796.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/developerFolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Suffolk.jpg": "/developerFolio/static/media/Suffolk.d1a6eea8.jpg",
+    "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.51cf7192.svg",
+    "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.59389695.svg",
+    "static/media/fema.jpg": "/developerFolio/static/media/fema.4b6ac6fc.jpg",
+    "static/media/manOnTable.svg": "/developerFolio/static/media/manOnTable.52be3144.svg",
+    "static/media/skill.svg": "/developerFolio/static/media/skill.34409398.svg",
+    "static/media/TalkCard.scss": "/developerFolio/static/media/talksCardBack.13780cdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a0c808c.js",
+    "static/js/2.61aa7796.chunk.js",
+    "static/css/main.d8b13d37.chunk.css",
+    "static/js/main.a615eb8a.chunk.js"
+  ]
+}
