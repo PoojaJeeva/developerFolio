@@ -26,7 +26,7 @@ const greeting = {
     "I'm a passionate Marketing Strategist 🚀 who supercharges growth by blending data-driven storytelling and cross-team collaboration – rallying aligned vision into flawless ideation, creation and engagement through clear processes.(I proudly rep 'woman of processes'!)  "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1P_RDR74GkwxIBuogfDs0iM_wXuLA2VHj/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nKD4pCS2woAlT2YGKJjWu2aUXuSVvSMM/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
