@@ -47,12 +47,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Growth-Generating , Data-Lovin' marketer who wants to work by blending analytics with creativity to create Magic",
+  subTitle:
+    "Growth-Generating , Data-Lovin' marketer who wants to work by blending analytics with creativity to create Magic",
   skills: [
     emoji(
       "⚡ Digital Marketing & Content Creation - Employ paid and organic tactics to boost visibility of compelling materials across platforms"
     ),
-    emoji("⚡ Sales-Enablement - Equip cross-functional teams to execute strategies"),
+    emoji(
+      "⚡ Sales-Enablement - Equip cross-functional teams to execute strategies"
+    ),
     emoji(
       "⚡ Storytelling - Weave empathy, information and inspiration to captivate"
     )
@@ -166,8 +169,7 @@ const workExperiences = {
       company: "Crowd Doing",
       companylogo: require("./assets/images/crowddoing.jpg"),
       date: "August 2023 – Present",
-      desc: "Drove $125K fundraising results through virtual events and cultivated 30% donor pipeline growth via targeted nurturing and alignment of 20+ sponsors with high-impact initiatives.",
-     
+      desc: "Drove $125K fundraising results through virtual events and cultivated 30% donor pipeline growth via targeted nurturing and alignment of 20+ sponsors with high-impact initiatives."
     },
     {
       role: "Marketing and Strategy Associate",
@@ -205,7 +207,8 @@ const openSource = {
 
 const bigProjects = {
   title: " Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE STRATEGIES AND ANALYSIS",
+  subtitle:
+    "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE STRATEGIES AND ANALYSIS",
   projects: [
     {
       image: require("./assets/images/liberty.jpg"),
@@ -222,7 +225,8 @@ const bigProjects = {
     {
       image: require("./assets/images/fema.jpg"),
       projectName: "FEMA",
-      projectDesc: "Climate research creating educational exhibit for 200+ attendees",
+      projectDesc:
+        "Climate research creating educational exhibit for 200+ attendees",
       footerLink: [
         {
           name: "Click here",
@@ -262,8 +266,7 @@ const bigProjects = {
           url: "https://drive.google.com/file/d/13tFxRsmbT75tsVOI21YXLi3x0D_cxmzg/view?usp=sharing  "
         }
       ]
-    },
-  
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -305,7 +308,10 @@ const achievementSection = {
       image: require("./assets/images/hubspot.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://app.hubspot.com/academy/achievements/fxmgkrln/en/1/pooja-jeeva/social-media-marketing "}
+        {
+          name: "Certification",
+          url: "https://app.hubspot.com/academy/achievements/fxmgkrln/en/1/pooja-jeeva/social-media-marketing "
+        }
       ]
     },
     {
@@ -313,7 +319,10 @@ const achievementSection = {
       image: require("./assets/images/sas.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/badges/aab65a8e-007d-4a0c-92db-10456b00974a/linked_in_profile "}
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/aab65a8e-007d-4a0c-92db-10456b00974a/linked_in_profile "
+        }
       ]
     },
     {
@@ -321,7 +330,10 @@ const achievementSection = {
       image: require("./assets/images/pendo.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://www.credly.com/badges/e98df918-083e-4150-9ab6-608efb9bf874/public_url "}
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/e98df918-083e-4150-9ab6-608efb9bf874/public_url "
+        }
       ]
     }
   ],
