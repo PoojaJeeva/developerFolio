@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Pooja Jeeva",
-  title: "Glad you're here, I'm Pooja 👋🏼",
+  title: "Glad you're here, I'm Pooja",
   subTitle: emoji(
-    "I'm a marketing strategist who connects the dots between product, sales, and customers. I turn real-world insights into clear, useful stories—and make sure teams are actually set up to win. Data helps, collaboration is key, and yes, I proudly rep 'woman of processes'! If any of this resonates, let’s connect!"
+    "I'm a marketing strategist who connects the dots between product, sales, and customers. I turn real-world insights into clear, useful stories and make sure teams are actually set up to win. Data helps, collaboration is key, and yes, I proudly rep 'woman of processes'! If any of this resonates, let’s connect!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1nKD4pCS2woAlT2YGKJjWu2aUXuSVvSMM/view?usp=sharing", // Set to empty to hide the button
