@@ -172,21 +172,21 @@ const workExperiences = {
       desc: "Drove $125K fundraising results through virtual events and cultivated 30% donor pipeline growth via targeted nurturing and alignment of 20+ sponsors with high-impact initiatives."
     },
     {
-      role: "Marketing and Strategy Associate",
+      role: "Marketing & Strategy Analyst (Co-op)",
       company: "Nth Venture.Inc",
       companylogo: require("./assets/images/nth.jpg"),
       date: "February 2023 – May 2023",
       desc: "Shortened sales cycle 40% with tailored nurture and content, cutting lead leakage 15%. Grew VC portfolio awareness 15% via emails and advertising. Executed 5 co-sponsored AI events engaging 300+ pre-IPO founders and C-levels."
     },
     {
-      role: "Marketing Research Associate",
+      role: "Marketing Research Analyst",
       company: "Suffolk University",
       companylogo: require("./assets/images/suffolk2.jpg"),
       date: "September 2021 – February 2023",
       desc: "Uncovered $2M in cross-sell opportunities through buyer journey analytics. Boosted rep productivity 20% via SF CRM insights. Increased student conversion 18% using targeted SFMC outreach."
     },
     {
-      role: "Product Marketing Coordinator- Consumer Insight  ",
+      role: "Fractional Product Marketing Consultant",
       company: "YMCA",
       companylogo: require("./assets/images/ymca.jpg"),
       date: "September 2022 – December 2022",
