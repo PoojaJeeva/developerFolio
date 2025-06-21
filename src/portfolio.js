@@ -165,10 +165,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Product Marketing Manager",
+      company: "Laser Photonics Corporation",
+      companylogo: require("./assets/images/laserphotonics.jpeg"),
+      date: "September 2024 – Present",
+      desc: "Identified 5 key differentiators through competitive benchmarking for laser cutting verticals. Partnered with 3 top pharma companies to build strategy for tablet drilling systems, generating $2.3M pipeline. Drove 64% boost in organic impressions via SEO and campaigns."
+    },
+    {
+      role: "Associate Product Marketing Manager",
+      company: "MassMetric",
+      companylogo: require("./assets/images/MassMetric.jpeg"),
+      date: "June 2023 – August 2024",
+      desc: "Built product marketing for 4 B2B IT units from the ground up. Created sales enablement toolkit adopted in Salesforce. Led content strategy that secured a $110K AI web contract and improved email open rates by 22% in 6 months."
+    },
+    {
       role: "Product Marketing Consultant",
       company: "Crowd Doing",
       companylogo: require("./assets/images/crowddoing.jpg"),
-      date: "August 2023 – Present",
+      date: "August 2023 – Jan 2024",
       desc: "Drove $125K fundraising results through virtual events and cultivated 30% donor pipeline growth via targeted nurturing and alignment of 20+ sponsors with high-impact initiatives."
     },
     {
@@ -191,21 +205,7 @@ const workExperiences = {
       companylogo: require("./assets/images/ymca.jpg"),
       date: "September 2022 – December 2022",
       desc: "Drove 25% mobile booking growth through 2K+ insights enhancing UX personalization. Lifted LTV 7% in 4 months via aligned Journey Builder promotions. Organized 15+ events with sales teams, boosting leads and conveying YMCA mission."
-    },
-    {
-      role: "Associate Product Marketing Manager",
-      company: "MassMetric",
-      companylogo: require("./assets/images/MassMetric.jpeg"),
-      date: "June 2023 – August 2024",
-      desc: "Built product marketing for 4 B2B IT units from the ground up. Created sales enablement toolkit adopted in Salesforce. Led content strategy that secured a $110K AI web contract and improved email open rates by 22% in 6 months."
-    },
-    {
-      role: "Product Marketing Manager",
-      company: "Laser Photonics Corporation",
-      companylogo: require("./assets/images/laserphotonics.jpeg"),
-      date: "September 2024 – Present",
-      desc: "Identified 5 key differentiators through competitive benchmarking for laser cutting verticals. Partnered with 3 top pharma companies to build strategy for tablet drilling systems, generating $2.3M pipeline. Drove 64% boost in organic impressions via SEO and campaigns."
-    }
+    }  
   ]
 };
 
